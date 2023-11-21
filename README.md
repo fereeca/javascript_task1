@@ -6,6 +6,9 @@
 
 -Javascript is single threaded because it can only execute one piece of code at a time.
 
+Example:
+`console.log("Start"); setTimeout(() => { console.log("Timeout finished"); }, 1000); console.log("End");`
+
 ## What is the run time error? 
 
 -Runtime errors occur during the execution of a program and are not identified during the compilation phase. 
@@ -16,9 +19,7 @@
 
 -IIFE stands for Immediately Invoked Function Expression. () at the end immediately invokes or executes the function expression.
 
-EXAMPLE:
- 
- `function add(){
+EXAMPLE:`function add(){
      console.log("addition");
  } ()`
 
