@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 250px;
+
+  .name {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: large;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+
+  .address {
+    font-size: large;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+
+  .submit {
+    padding-left: 450px;
+  }
+
+  .submit button {
+    padding: 20px;
+    font-size: large;
+    font-weight: 800;
+    padding-bottom: 15px;
+  }
+}
